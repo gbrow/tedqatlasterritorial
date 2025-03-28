@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>ATLAS - Visualização de Dados</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Visualização de Dados do ATLAS</h1>
+    
+    <div class="upload-section">
+      <input type="file" id="csvFile" accept=".csv" />
+      <button id="btnCarregar">Carregar CSV</button>
+    </div>
+
+    <div class="filters">
+      <label for="temaFilter">Tema:</label>
+      <select id="temaFilter" disabled>
+        <option value="">Todos</option>
+      </select>
+
+      <label for="municipioFilter">Município:</label>
+      <select id="municipioFilter" disabled>
+        <option value="">Todos</option>
+      </select>
+    </div>
+
+    <div class="chart-container temas">
+      <h2>Distribuição por Tema</h2>
+      <div class="chart-wrapper">
+        <button class="export-btn" onclick="exportChart('temasChart')">Exportar PNG</button>
+        <canvas id="temasChart"></canvas>
+      </div>
+      <div class="resize-handle"></div>
+      <div class="chart-actions">
+        
+        <button class="resize-btn" onclick="resetChartSize('temasChart')">Redefinir Tamanho</button>
+      </div>
+    </div>
+    <div class="chart-container subtemas">
+      <h2>Subtemas por Tema (Barras Empilhadas)</h2>
+      <button class="export-btn" onclick="exportChart('subtemasChart')">Exportar PNG</button>
+      <div class="chart-wrapper">
+        <canvas id="subtemasChart"></canvas>
+      </div>
+      <div class="resize-handle"></div>
+      <div class="chart-actions">
+        <button class="resize-btn" onclick="resetChartSize('subtemasChart')">Redefinir Tamanho</button>
+      </div>
+    </div>
+
+    <div class="chart-container municipios">
+      <h2>Dados por Município</h2>
+      <button class="export-btn" onclick="exportChart('municipiosChart')">Exportar PNG</button>
+      <div class="chart-wrapper">
+        <canvas id="municipiosChart"></canvas>
+      </div>
+      <div class="resize-handle"></div>
+      <div class="chart-actions">
+        <button class="resize-btn" onclick="resetChartSize('municipiosChart')">Redefinir Tamanho</button>
+      </div>
+    </div>
+    <div class="chart-container formatos">
+      <h2>Distribuição de Formatos (Área Polar)</h2>
+      <button class="export-btn" onclick="exportChart('formatosChart')">Exportar PNG</button>
+      <div class="chart-wrapper">
+        <canvas id="formatosChart"></canvas>
+      </div>
+      <div class="resize-handle"></div>
+      <div class="chart-actions">
+        <button class="resize-btn" onclick="resetChartSize('formatosChart')">Redefinir Tamanho</button>
+      </div>
+    </div>
+
+
+    <div class="chart-container">
+      <div class="chart-header">
+        <h2>Relação Tema-Município</h2>
+        <div class="chart-actions">
+          <button class="export-btn" onclick="exportTabelaAgrupada()">Exportar PNG</button>
+        </div>
+      </div>
+      <div id="tabelaAgrupada"></div>
+    </div>
+
+    <div class="chart-container">
+      <h2>Tabela Completa</h2>
+      <div id="tableContainer">
+        <table id="dadosTable" class="display"></table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
