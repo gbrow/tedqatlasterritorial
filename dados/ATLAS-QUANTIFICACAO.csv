@@ -1,0 +1,273 @@
+Tipo;TEMA;SUBTEMA;Escala;Recorte;Dado;Formato;Fonte
+Dado;População;Total 2022;Municipal;Palmas;Valor numérico;Dado Bruto;SIDRA IBGE 2022
+Dado;População;Estimada 2024;Municipal;Palmas;Valor numérico;Dado Bruto;SIDRA IBGE 2022
+Dado;População;Densidade demográfica;Municipal;Palmas;Valor numérico (hab/m²);Dado Bruto;IBGE, 2022
+Dado;População;Pirâmide etária;Municipal;Palmas;População residente, por sexo, idade e forma de declaração da idade;Gráfico;IBGE 2022
+Dado;População;Pirâmide etária;Municipal;Palmas;População residente, por sexo, idade e forma de declaração da idade;Tabela;IBGE 2022
+Dado;População;Pirâmide - raça e sexo do responsável pelo domicílio;Municipal;Palmas;Moradores em domicílios particulares, por condição no domicílio, segundo sexo, cor ou raça e grupos de idade da pessoa responsável pelo domicílio;Gráfico;IBGE 2022
+Dado;População;Pirâmide - raça e sexo do responsável pelo domicílio;Municipal;Palmas;Moradores em domicílios particulares, por condição no domicílio, segundo sexo, cor ou raça e grupos de idade da pessoa responsável pelo domicílio;Tabela;IBGE 2022
+Dado;População;Índice de envelhecimento (IE);Municipal;Palmas;"Valor numérico; Número de pessoas com 65 anos e mais de idade em relação a um grupo de 100 crianças de zero a 14 anos";Dado Bruto;IBGE 2022
+Dado;População;Genero - Razao de sexo (RS);Municipal;Palmas;"Valor numérico; Número de homens em relação a um grupo de 100 mulheres em uma população";Dado Bruto;IBGE 2022
+Dado;População;Populaçao Residente;Municipal;Palmas;Distribuição por setor censitário da população residente em domicílios em 2010;Mapa;IBGE 2010
+Dado;População;Populaçao Branca Residente;Municipal;Palmas;Distribuição por setor censitário da população autodeclarada branca residente em domicílios em 2010;Mapa;IBGE 2010
+Dado;População;Populaçao Parda Residente;Municipal;Palmas;Distribuição por setor censitário da população autodeclarada parda residente em domicílios em 2010;Mapa;IBGE 2010
+Dado;População;Populaçao Preta Residente;Municipal;Palmas;Distribuição por setor censitário da população autodeclarada preta residente em domicílios em 2010;Mapa;IBGE 2010
+Dado;População;Proporçao de raça ou cor autodeclarada;Municipal;Palmas;Proporção da população residente por raça ou cor autodeclarada por setor censitário em 2010;Mapa;IBGE 2010
+Dado;Socioeconômico;Renda Mensal Domiciliar Total 2010;Municipal;Palmas;Distribuição de renda domiciliar total por setor censitário em 2010;Mapa;IBGE 2010
+Dado;Socioeconômico;Renda Mensal Domiciliar por faixa salarial 2010;Municipal;Palmas;"Distribuição de renda domiciliar por faixa salarial, com base no salário mínimo, por setor censitário em 2010 (Até 1/8; 1/8 a 1/4; 1/4 a 1/2; 1/2 a1; 1 a 2; 2 a 3; 3 a 5; 5 a 10; mais de 10; sem renda)";Mapa;IBGE 2010
+Dado;Socioeconômico;Proporçao da contribuiçao na renda mensal domiciliar total, por faixa salarial;Municipal;Palmas;"Distribuição da proporção de contribuição de renda domiciliar total por faixa salarial, com base no salário mínimo, por setor censitário em 2010 (Até 1/8; 1/8 a 1/4; 1/4 a 1/2; 1/2 a1; 1 a 2; 2 a 3; 3 a 5; 5 a 10; mais de 10; sem renda)";Mapa;IBGE 2010
+Dado;Socioeconômico;IDH;Municipal;Palmas;IDHM 2010;Dado Bruto;Paraná Interativo
+Dado;Socioeconômico;IDH;Municipal;Palmas;IPDM 2021 - Índice IPARDES de Desenvolvimento Municipal;Dado Bruto;Paraná Interativo
+Dado;Socioeconômico;Orgânicos;Municipal;Palmas;Relação de produtores orgânicos do município em janeiro/2025;Tabela;MAPA
+Dado;Socioeconômico;Censo agropecuário;Municipal;Palmas;Dados gerais do Censo Agropecuário 2017 para o município (variáveis no PDF);Shapefile;IBGE 2017
+Dado;Socioeconômico;Censo agropecuário;Municipal;Palmas;Download de dados completos do Censo Agropecuário 2017;Tabela;IBGE 2017
+Dado;Socioeconômico;Indústria;Municipal;Palmas;Mapa de indústrias no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Socioeconômico;índice de Vulnerabilidade Social - IVS;Municipal;Palmas;Mapa do Índice de Vulnerabilidade Social para os municípios do Paraná, recortado dos dados nacionais disponíveis para download (variáveis no XLXS);Shapefile;IPEA
+Dado;Ambiental;Unidades de conservaçao;Municipal;Palmas;Mapa de unidades de conservação no município;Mapa;Plano Diretor de Palmas 2021
+Dado;Ambiental;Unidades de conservaçao;Municipal;Palmas;Mapa de unidades de conservação estaduais no município 2022 (recorte do SHP do IAT);Shapefile;IAT, 2022
+Dado;Ambiental;Unidades de conservaçao Estadual;Municipal;Palmas;Unidades de Conservação Estaduais 2022;Shapefile;IAT, 2022
+Dado;Ambiental;Unidades de conservaçao Federal;Municipal;Palmas;Unidades de Conservação Federais no Paraná 2023;Shapefile;MAPA
+Dado;Ambiental;Hidrografia;Municipal;Palmas;Hidrografia Ottocodificada - Elementos vetoriais da base hidrográfica modelados com uma topologia de rede e processados pela metodologia de ottocodificação desenvolvida pela Agência Nacional das Águas - ANA, 2010, recortado para Palmas.;Shapefile;IAT, 2020
+Dado;Ambiental;Hidrografia;Municipal;Palmas;Cursos D'água (Largura de até 10 metros) - Base de cursos d'água com largura de até 10 metros, realizado através do Mapeamento de Áreas de Preservação Permanentes Hídricas, recortado para Palmas.;Shapefile;FBDS 2013
+Dado;Ambiental;Hidrografia;Municipal;Palmas;Mapa de hidrografia em polígonos, recortado para Palmas.;Shapefile;INCRA 2024
+Dado;Ambiental;Hidrografia Estadual;Municipal;Palmas;Hidrografia Ottocodificada - Elementos vetoriais da base hidrográfica modelados com uma topologia de rede e processados pela metodologia de ottocodificação desenvolvida pela Agência Nacional das Águas - ANA, 2010.;Shapefile;IAT, 2020
+Dado;Ambiental;Hidrografia Estadual;Municipal;Palmas;Cursos D'água (Largura de até 10 metros) - Base de cursos d'água com largura de até 10 metros, realizado através do Mapeamento de Áreas de Preservação Permanentes Hídricas.;Shapefile;FBDS 2013
+Dado;Ambiental;Bacias Hidrográficas;Municipal;Palmas;Bacias hidrográficas do Paraná, recortado para Palmas;Shapefile;SUDERHSA 2007
+Dado;Ambiental;Bacias Hidrográficas;Municipal;Palmas;Bacias hidrográficas do Paraná;Shapefile;SUDERHSA 2007
+Dado;Ambiental;Unidades Aquíferas;Municipal;Palmas;Mapa de sub-bacias e unidades aquíferas do município;Mapa;Plano Diretor de Palmas 2021
+Dado;Ambiental;Pedologia;Municipal;Palmas;Mapa de pedologia (solos) do município;Mapa;Plano Diretor de Palmas 2021
+Dado;Ambiental;Clima;Municipal;Palmas;Mapa da classificação climática de Koppen, recortado para Palmas.;Shapefile;SIMEPAR
+Dado;Ambiental;Clima;Municipal;Palmas;Mapa da classificação climática de Koppen para o Paraná.;Shapefile;SIMEPAR
+Dado;Ambiental;Assentamentos rurais;Municipal;Palmas;Assentamentos Rurais de Reforma Agrária com CAR ;Mapa;IAT
+Dado;Ambiental;Declividade (Perímetro Urbano);Municipal;Palmas;Classes de declividade (%) para região no entorno das comunidades a partir dos dados SRTM;Shapefile;Earth Data
+Dado;Ambiental;Declividade (Perímetro Urbano);Municipal;Palmas;Mapa de declividade;Mapa;Plano Diretor de Palmas 2021
+Dado;Ambiental;Altitude (Perímetro Urbano);Municipal;Palmas;Dados SRTM de elevação do terreno com resolução espacial de 30m;Dado Bruto;Earth Data
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;Equipamentos de educação - centros de educação infantil, escolas municipais e estaduais;Mapa;Paraná Interativo
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;CMEIs;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;Escolas Municipais;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;Escolas Municipais do Campo;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;Equipamentos de educação no perímetro urbano ;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Educaçao;Municipal;Palmas;Creches no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Saúde;Municipal;Palmas;Unidades Básicas de Saúde;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Saúde;Municipal;Palmas;Clínicas;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Saúde;Municipal;Palmas;Equipamentos de saúde e sua abrangência no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Saneamento Básico - Água e Esgoto;Municipal;Palmas;Atendimento de saneamento básico por via;Mapa;Paraná Interativo
+Dado;Serviços Públicos;Coleta de esgoto;Municipal;Palmas;Sistema de coleta de esgoto no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Abastecimento de água;Municipal;Palmas;Sistema de abastecimento de água no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Drenagem;Municipal;Palmas;Sistema de drenagem urbana no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Drenagem;Municipal;Palmas;Áreas sujeitas a alagamentos no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Mobilidade urbana;Municipal;Palmas;Plano de Mobilidade Urbana 2023;Documento;Prefeitura de Palmas
+Dado;Serviços Públicos;Mobilidade urbana;Municipal;Palmas;Polos geradores de tráfego;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Transporte público;Municipal;Palmas;Itinerários do transporte coletivo;Fonte;Prefeitura Municipal de Palmas
+Dado;Serviços Públicos;Moradia;Municipal;Palmas;Sistema de Informações sobre Necessidades Habitacionais no Paraná (SISPEHIS) 2024;Fonte;COHAPAR
+Dado;Serviços Públicos;Plano Estadual de Habitaçao de Interesse Social 2019;Municipal;Palmas;Pesquisa de Necessidades Habitacionais no Paraná 2019 - Plano de Habitação de Interesse Social do Paraná (PEHIS) 2019;Documento;COHAPAR
+Dado;Serviços Públicos;Plano Estadual de Habitaçao de Interesse Social 2019;Municipal;Palmas;Mapa do PEHIS 2019;Mapa;COHAPAR
+Dado;Serviços Públicos;Plano Estadual de Habitaçao de Interesse Social 2019;Municipal;Palmas;Mapa do PEHIS 2015;Mapa;COHAPAR
+Dado;Serviços Públicos;Moradia informal;Municipal;Palmas;Assentamentos precários;Mapa;Paraná Interativo / SISPEHIS COHAPAR
+Dado;Serviços Públicos;Moradia informal;Municipal;Palmas;Espaços informais de moradia em área de risco no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Iluminaçao Pública;Municipal;Palmas;Localização e tipologias da iluminação pública no perímetro urbano;Mapa;Paraná Interativo / Copel
+Dado;Serviços Públicos;Iluminaçao Pública;Municipal;Palmas;Presença de iluminação pública nas vias no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Infraestrutura viária;Municipal;Palmas;Tipo de pavimentação das vias;Mapa;Paraná Interativo
+Dado;Serviços Públicos;Infraestrutura viária;Municipal;Palmas;Pavimentação e infraestrutura viária municipal;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Infraestrutura viária;Municipal;Palmas;Pavimentação e infraestrutura viária no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Infraestrutura viária;Municipal;Palmas;Hierarquia viária no perímetro urbano ;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Acessos Viários;Municipal;Palmas;Mapa de Estradas do Paraná com sua respectiva classificação e jurisdição;Shapefile;DER 2021
+Dado;Serviços Públicos;Lei do Sistema Viário;Municipal;Palmas;"Define a estruturação, classificação
+e a hierarquização do Sistema Viário Básico de Palmas";Documento;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Características urbanísticas;Municipal;Palmas;Características utilizadas pelo IBGE: iluminação pública, pavimentação, arborização, bueiro/boca de lobo, lixo acumulado, esgoto a céu aberto, meio-fio ou guia, bem como calçada e rampa para cadeirante;Mapa;Paraná Interativo / CENSO IBGE 2010
+Dado;Serviços Públicos;Coleta de resíduos;Municipal;Palmas;Frequência da coleta de lixo orgânico;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Coleta de resíduos;Municipal;Palmas;Frequência da coleta de lixo reciclável;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Assistencia social;Municipal;Palmas;Equipamentos de assistência social no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Esporte e lazer;Municipal;Palmas;Equipamentos de esporte e lazer no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Serviços Públicos;Segurança pública;Municipal;Palmas;Equipamentos de segurança pública no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Histórico;Locais de história, memória e cultura;Municipal;Palmas;Áreas de interesse histórico e cultural no perímetro urbano;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Perímetro urbano 2021;Municipal;Palmas;Perímetro urbano atual, vetorizado por nós com base no PD;Shapefile;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Perímetro urbano 2021;Municipal;Palmas;Proposta de delimitação de perímetro urbano atual constante no PD;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Perímetro urbano 2013;Municipal;Palmas;Perímetro urbano vigente em 2013, vetorizado por nós com base no PD;Shapefile;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Perímetro urbano 2008;Municipal;Palmas;Perímetro urbano vigente em 2008, vetorizado por nós com base no PD;Shapefile;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Lei do perímetro urbano 2021;Municipal;Palmas;" Estabelece o Perímetro Urbano da
+Sede do Município de Palmas e a Divisão demBairros Urbanos";Documento;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Bairros;Municipal;Palmas;Divisão dos bairros;Shapefile;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Bairros;Municipal;Palmas;Área total dos limites dos bairros que corresponte praticamente ao perímetro urbano;Shapefile;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Zoneamento e Macrozoneamento;Municipal;Palmas;Mapa do zoneamento proposto em 2021;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Zoneamento e Macrozoneamento;Municipal;Palmas;Mapa do macrozoneamento proposto em 2021;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Zoneamento e Macrozoneamento;Municipal;Palmas;Mapa do zoneamento vigente em 2017;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Lei de uso e ocupaçao 2021;Municipal;Palmas;"Regulamenta o Zoneamento de 
+Uso e Ocupação do Solo Urbano de Palmas ";Documento;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Lei do Plano Diretor / Macrozoneamento;Municipal;Palmas;"Dispõe sobre a Revisão do Plano
+Diretor Participativo do Município de Palmas";Documento;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Relatórios de elaboraçao do Plano Diretor 2021;Municipal;Palmas;Levantamentos, pesquisas e análises realizadas pela equipe do Plando Diretor de 2021;Documento;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Valor da terra;Municipal;Palmas;Planta Genérica de Valores (PGV) de  2007 - Mapa de valor da terra urbana;Mapa;Plano Diretor de Palmas 2021
+Dado;Plano Diretor;Valor da terra;Municipal;Palmas;Novos valores de IPTU por bairro para 2024 (informação elaborada em 2022);Mapa;Notícia do Grupo RBJ de comunicação
+Dado;Midias;Educaçao Quilombola na Escola Maria Joana Ferreira;Municipal;Palmas;Video de projeto educacional;Vídeo;Secretaria de Educação do Estado do Paraná (SEED)
+Dado;Midias;Contexto e história do bairro Sao Sebastiao;Municipal;Palmas;Dona Maria Arlete contando a história do bairro e do início das comunidades e também sobre a construção da Igreja de São Sebastião;Vídeo;Comunidade
+Dado;Notícias;Dia da Consciencia Negra;Municipal;Palmas;9.1 Celebração do Dia da Consciência Negra na Escola Quilombola Maria Joana Ferreira;Vídeo;TV Sudoeste
+Dado;Cartografia;Área total do município;Municipal;Palmas;Valor numérico (km²);Dado Bruto;IBGE 2022
+Dado;Cartografia;Limite Municipal;Municipal;Palmas;Limite Municipal ;Shapefile;IBGE 2022
+Dado;Cartografia;Setores Censitários 2010;Municipal;Palmas;Setores Censitários do Censo 2010;Shapefile;IBGE 2010
+Dado;Cartografia;Setores Censitários 2022;Municipal;Palmas;Setores Censitários do Censo 2022;Shapefile;IBGE 2022
+Dado;Cartografia;Aerolevantamento 1980;Municipal;Palmas;Foto aérea do município em 1980;Foto aérea;ITCG
+Dado;Cartografia;Fotoindice do Aerolevantamento;Municipal;Palmas;Fotoíndice das fotos aéreas do aerolevantamento de 1980 em escala 1:25.000;Shapefile;IAT
+Dado;Cartografia;Aerolevantamento 2021;Municipal;Palmas;Foto aérea do município em 2021;Foto aérea;Paraná Interativo
+Hipóteses;Políticas Públicas;PNAE;Municipal;Palmas;Quantidade de alunos atendidos pelo PNAE por município paranaense e etapa de ensino entre 2009 e 2022;Tabela;FNDE / PNAE 2024
+Hipóteses;Políticas Públicas;PNAE;Municipal;Palmas;Quantidade de escolas atendidas pelo PNAE por município paranaense entre 2009 e 2024;Tabela;FNDE / PNAE 2024
+Hipóteses;Questão Fundiária;acesso à terra e raça 2017;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho e raça do produtor responsável;Gráfico;Censo agropecuário IBGE 2017 - tabela 6882
+Hipóteses;Questão Fundiária;acesso à terra e raça 2017;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho e raça do produtor responsável em porcentagem;Gráfico;Censo agropecuário IBGE 2017 - tabela 6882
+Hipóteses;Questão Fundiária;acesso à terra e raça 2017;Municipal;Palmas;Proporção de número de produtores responsáveis por estabelecimento agropecuário  por raça;Gráfico;Censo agropecuário IBGE 2017 - tabela 6882
+Hipóteses;Questão Fundiária;acesso à terra e raça 2017;Municipal;Palmas;Proporção de áreao cupada de produtores responsáveis por estabelecimento agropecuário  por raça;Gráfico;Censo agropecuário IBGE 2017 - tabela 6882
+Hipóteses;Questão Fundiária;acessoa à terra e agricultura familiar 2017;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho e agricultura familiar;Gráfico;Censo agropecuário IBGE 2017 - tabela 6882
+Hipóteses;Questão Fundiária;concentraçao fundiária 1995;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho;Gráfico;Censo Agropecuário IBGE 1995 Tabelas 315 e 312
+Hipóteses;Questão Fundiária;concentraçao fundiária 2006;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho;Gráfico;Censo Agropecuário IBGE Tabela 837
+Hipóteses;Questão Fundiária;concentraçao fundiária 2017;Municipal;Palmas;Comparaçãode número de estabelecimentos e área ocupada por grupo de tamanho;Gráfico;Agropecuário IBGE 2017 Tabela 6880 Censo
+Hipóteses;Segregação Socioespacial;Comparaçao das proporçoes de raça autodeclarada de residentes e renda domiciliar por faixa salarial 2010;Municipal;Palmas;Distribuição po setor censitário das proporções de raça e de renda por faixa salarial;Mapa;Gerado a partir das tabelas Pessoa03_PR e DomicilioRenda_PR do Censo 2010
+Hipóteses;Segregação Socioespacial;Valor da Terra e racismo estrutural;Municipal;Palmas;Comparação do valor da terra com a distribuição dos residentes por raça ou cor autodeclarada;Mapa;Plano Diretor de Palmas 2021 e tabela Pessoa03_PR do Censo 2010
+Dado;Sociais e populacionais;densidade populacional;Municipal;Guaraqueçaba;Valor númerico hab/m² (2022), densidade, demográfica e população estimada (2024);Dado Bruto;IBGE (2022) 
+Dado;Sociais e populacionais;taxa de crescimento;Municipal;Guaraqueçaba;Taxa de Crescimento Médio Anual da População (2000 - 2010). Guaraqueçaba: - 0,51% (queda baixa);Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;Pirâmide;Municipal;Guaraqueçaba;piramide etaria com recorte de gênero;Dado Bruto;IBGE (2022)
+Dado;Sociais e populacionais;Dinâmica Demográfica;Municipal;Guaraqueçaba;Guaraqueçaba: esvaente de pessoas;Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;Dinâmica Demográfica;Regional;Litoral Paranaense;Para o comparativo regional: litoral norte (esvaente) litoral centro-sul (atraente) ;Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;IDH;Municipal;Guaraqueçaba;IDHM do município de Guaraqueçaba em relação ao Brasil;Dado Bruto;AtlasBrasil (2021)
+Dado;Sociais e populacionais;IDH;Regional;Microregião de Paranaguá;Média IDH Regional (0,701);Tabela;AtlasBrasil, 2022
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Caracteristicas etnico-raciais no contexto Urbano x Rural;Dado Bruto;Infosanbas (Portal de Dados Municipais de vários anos)
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Bolsa Família;Tabela;Portal Bolsa Família
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Grau de Desenvolvimento Socioeconômico (baixo);Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Renda Média (por município) - Guaraqueçaba: Faixa de R$ 514,62 a R$ 850,00 (mais baixa);Mapa;Catalogo (IPARDES, 2024)
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Domicílios Particulares com Renda Mensal até 1/2 Salários Mínimos. Guaraqueçaba: 51,78 %;Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;Desigualdades;Municipal;Guaraqueçaba;Empregados Sem Carteira Assinada. Guaraqueçaba: 26,80 % (média);Mapa;Catalogo (IPARDES, 2014)
+Dado;Sociais e populacionais;Densidade Demográfica;Municipal;Guaraqueçaba;Em relação aos outros municípios do Paraná (muito baixa);Mapa;Catalogo (IPARDES, 2024)
+Dado;Sociais e populacionais;Mortalidade;Municipal;Guaraqueçaba;Em relação aos outros municípios do Paraná (muito baixa);Mapa;Catalogo (IPARDES, 2014)
+Dado;Cartografia;Localizaçao;Quilombo;Batuva;Localização Comunidade de Batuva;Mapa;TED Q (2024) - EQUIPE CARTO
+Dado;Cartografia;Localizaçao;Quilombo;Batuva;Localização Comunidade de Batuva;Mapa;TED Q (2024) - EQUIPE CARTO
+Dado;Cartografia;Localizaçao;Quilombo;Rio Verde;Localização Comunidade de Rio Verde;Mapa;TED Q (2024) - EQUIPE CARTO
+Dado;Cartografia;Localizaçao;Quilombo;Rio Verde;Localização Comunidade de Rio Verde;Mapa;TED Q (2024) - EQUIPE CARTO
+Dado;Cartografia;Matrículas;Municipal;Guaraqueçaba;Matrículas da Arvoredo com e sem conflito possesório;Mapa;TED Q (2024) - EQUIPE CARTO
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Imoveis;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Reserva Legal;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;APP HIDRO;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;APP Declividade;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Vegetação Nativa;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Hidrografia;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Área Consolidada;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Área de Pousio;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Servidão Administrativa;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Municipal;Guaraqueçaba;Uso Restrito;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;PR-4109500-9C8AB4F3D3954999B9CE9B46DDE495F7;Dado Bruto;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Imoveis;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Reserva Legal;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;APP HIDRO;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Vegetação Nativa;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Hidrografia;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Área Consolidada;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Área de Pousio;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Uso Restrito;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Sobreposição de área no CAR;Shapefile;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Posíveis lindeiros a partir do CAR;Shapefile;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Batuva;Levantamento dos CARs em sobreposição e lindeiros;Tabela;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;PR-4109500-8F96E23EAED049C394545056C4E66BA4;Dado Bruto;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Imoveis;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Reserva Legal;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;APP HIDRO;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Vegetação Nativa;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Hidrografia;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Área Consolidada;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Área de Pousio;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Servidão Administrativa;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Uso Restrito;Shapefile;INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Sobreposição de área no CAR;Shapefile;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Posíveis lindeiros a partir do CAR;Shapefile;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;CAR;Quilombo;Rio Verde;Levantamento dos CARs em sobreposição e lindeiros;Tabela;Análise a partir de dados do INCRA (2024)
+Dado;Cartografia;Limite administrativo;Municipal;Guaraqueçaba;20011,357 km²;Dado Bruto;IBGE (2022)
+Dado;Cartografia;Localizaçao;Municipal;Guaraqueçaba;Localização e localidades (quilombos, projetos de assentamento e TIs);Mapa;IBGE (2010)
+Dado;Cartografia;Limite administrativo;Municipal;Guaraqueçaba;Limite municipal;Shapefile;SEMA (2024)
+Dado;Cartografia;Localizaçao;Municipal;Guaraqueçaba;Localização das comunidades quilombolas de Guaraqueçaba;Mapa;IAT (2017)
+Dado;Ambiental;MAPBIOMAS;Municipal;Guaraqueçaba;Cobertura do solo;Fonte;MapBiomas (2024)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Localização;Mapa;ICMBio (2016)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Limite;Mapa;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Limite;Mapa;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba; 247.747,96 ha;Dado Bruto;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;" Dec nº 90.883 de 31 de janeiro de 1985
+";Documento;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Lei nº 9.513 de 20 de novembro de 1997;Documento;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;"Mata Atlântica (bioma predominante) e Sistema Costeiro-Marinho
+";Documento;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Lista de Espécies Ameaçadas protegidas nesta Unidade de Conservação;Dado Bruto;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;PORTARIA Nº 1.054, DE 11 DE NOVEMBRO DE 2020;Documento;ICMBio (2023)
+Dado;Ambiental;Unidade de Conservaçao Estadual;Municipal;Guaraqueçaba;Cadastro da UC no Ministério do Meio Ambiente;Documento;"MMA (2023); ICMBio"
+Dado;Ambiental;Solos;Municipal;Guaraqueçaba;Classificação e Aptidão;Mapa;Catalogo (EMBRAPA, 1984)
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Dados gerais de educação;Fonte;Educação Já
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Proporção de pessoas de 25 anos ou mais de idade sem instrução ou com ensino fundamenal incompleto. Guaraqueçaba: 71,62% (média alta);Mapa;Catalogo (IPARDES, 2014)
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Taxa de Alfabetização de Pessoas com 10 Anos de Idade ou Mais ;Mapa;Catalogo (IPARDES, 2014)
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Número de Escolas Públicas (municipais e estaduais);Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Listagem de Escolas Municipais e Estaduais;Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Educaçao;Municipal;Guaraqueçaba;Número de matrículas e docentes por nível (pré-escola, ens fundamental e ens medio) e por instituição (municipal e estadual);Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Incidência de casos de Leptospirose;Mapa;Catalogo (PLERH, 2005)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Número de Leitos Hospitalares;Mapa;Catalogo (PLERH, 2003)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Quantidade e Tipo de estabelecimento;Mapa;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Número de Leitos de Internação;Mapa;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Listagem de Postos de Saúde e UBSs;Mapa;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Recursos Humanos na Área de Saúde;Mapa;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Saúde;Municipal;Guaraqueçaba;Equipamentos disponíveis;Mapa;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Água;Municipal;Guaraqueçaba;modalidade de captação de água para abstecimento ruralxurbano;Dado Bruto;https://infosanbas.org.br/municipio/guaraquecaba-pr/#politicas_publicas_saneamento
+Dado;Serviços Públicos;Água;Municipal;Guaraqueçaba;Porcentagem de domicílios sem Rede de Distribuição de Água. Guaraqueçaba: 41,96 %;Mapa;Catalogo (IPARDES, 2014)
+Dado;Serviços Públicos;Esgoto;Municipal;Guaraqueçaba;Proporção de Domicílios não Atendidos por Rede de Esgoto. Guaraqueçaba: 69,87 %;Mapa;Catalogo (IPARDES, 2014)
+Dado;Serviços Públicos;Água;Municipal;Guaraqueçaba;Atendimento de esgoto no município de Guaraqueçaba, pela SANEPAR, no ano 2020;Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Esgoto;Municipal;Guaraqueçaba;Abastecimento de água pela SANEPAR no município de Guaraqueçaba, ano 2020;Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Serviços Públicos;Energia;Municipal;Guaraqueçaba;Consumo de energia elétrica no município de Guaraqueçaba no ano de 2020.;Tabela;Plano Municipal de Saúde (2022-2025)
+Dado;Socioeconômico;Déficit Habitacional;Municipal;Guaraqueçaba;Em relação aos outros municípios do Paraná (baixo);Mapa;Catalogo (PLERH, 2004)
+Dado;Política de Assistência Social;Plano de Assistencia Social;Municipal;Guaraqueçaba;PLANO MUNICIPAL DE ASSISTÊNCIA SOCIAL 2022-2025  Guaraqueçaba-PR;Documento;Secretaria de Assistência Social
+Dado;Lei de Ordenamento Municipal;Plano Diretor;Municipal;Guaraqueçaba;Plano Diretor - 2008;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Plano Plurianual;Municipal;Guaraqueçaba;Plano Plurianual - 2022 a 2025;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Lei Organica;Municipal;Guaraqueçaba;Lei Organica;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Codigo de Posturas;Municipal;Guaraqueçaba;Codigo de Posturas;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Codigo de Obras;Municipal;Guaraqueçaba;Codigo de Obras;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Zoneamento e Uso do Solo;Municipal;Guaraqueçaba;Zoneamento e Uso do Solo;Documento;Lei Municipal
+Dado;Lei de Ordenamento Municipal;Parcelamento do Solo;Municipal;Guaraqueçaba;Parcelamento do Solo;Documento;Lei Municipal
+Dados;População;Dados populaçao;Municipal;Adrianópolis;População residente  ;Tabela;IBGE
+Dados;População;Relaçao Urbano/Rural e genero;Municipal;Adrianópolis;Sexo e tipo de domicílio;Tabela;IBGE
+Dados;População;Dados populaçao;Municipal;Bocaiuva do Sul;População;Tabela;IBGE
+Dados;População;Dados populaçao;Municipal;Barra do Turvo;População;Tabela;IBGE
+Dados;Socioeconômico;Dados espaciais gerais;Estadual;Paraná;dados gerais;Fonte;GeoPraná
+Dados;Socioeconômico;Renda/pobreza (bolsa família, cesta básica);Municipal;Adrianópolis;Bolsa Família;Tabela;Sistema Bolsa Família na Saúde
+Dados;Socioeconômico;Renda/pobreza (bolsa família, cesta básica);Municipal;Bocaiuva do Sul;Bolsa Família;Tabela;Sistema Bolsa Família na Saúde
+Dados;Socioeconômico;Renda/pobreza (bolsa família, cesta básica);Municipal;Barra do Turvo;Bolsa Família;Tabela;Sistema Bolsa Família na Saúde
+Dados;Socioeconômico;Valor Adicionado Bruto (VAB);Municipal;Adrianópolis;valor adicionado bruto;Gráfico; IBGE (2010)
+Dados;Socioeconômico;Número de empregos formais por setor em Adrianópolis, 2019;Municipal;Adrianópolis;Empregos por setor;Tabela;RAIS (MTE, 2023
+Dados;Socioeconômico;IDH;Municipal;Adrianópolis;idh microrregiao;Tabela;IBGE, Atlas Brasil
+Dados;Socioeconômico;IDH;Municipal;Bocaiuva do Sul;IDH microrregiao;Tabela;IBGE, Atlas Brasil
+Dados;Socioeconômico;IDH;Municipal;Barra do Turvo;IDH;Tabela;IBGE
+Dados;Socioeconômico;Setores econômicos (% de representaçao dos setores em relaçao ao PIB);Municipal;Adrianópolis;"PIB de Adrianópolis(de 2009 a 2019); Participação dos setores econômicos Adrianópolis e Bocaiuva do Sul";Tabela;"IBGE 2010; IBGE 2021"
+Dados;Socioeconômico;Produçao agrícola/agropecuária/silvicultura;Municipal;Adrianópolis;"Evolução Silvicultura; mudança climática";Documento;ABRAF
+Dados;Socioeconômico;Orgânicos;Municipal;Adrianópolis;número de agricultores orgânicos;Tabela;CNPO e IBGE
+Dados;Socioeconômico;Orgânicos;Municipal;Bocaiuva do Sul;número de agricultores orgânicos;Tabela;CNPO e IBGE
+Dados;Socioeconômico;Fundiário;Municipal;Adrianópolis;Raça e número de estabelecimentos por grupo de área;Tabela;IBGE - Censo (2017)
+Dados;Ambiental;Unidade de conservaçao Estadual;Municipal;Adrianópolis;Parque_das_lauraceas;Shapefile;IAT, 2024
+Dados;Ambiental;Unidade de conservaçao Estadual;Municipal;Bocaiuva do Sul;Parque_das_lauraceas;Shapefile;IAT, 2024
+Dados;Ambiental;Unidade de conservaçao Estadual;Municipal;Barra do Turvo;APA de Guaraqueçaba;Shapefile;IAT, 2024
+Dados;Ambiental;Desmatamento;Municipal;Barra do Turvo;Dados espaciais ambientais;Fonte;DATAGEO SP, 2024
+Dados;Ambiental;Queimadas;Municipal;Adrianópolis;QUEIMADAS_ANUAIS_BRASIL_2023;Dado Bruto;MAPBIOMAS, 2023
+Dados;Ambiental;Queimadas;Municipal;Bocaiuva do Sul;QUEIMADAS_ANUAIS_BRASIL_2023;Dado Bruto;MAPBIOMAS, 2023
+Dados;Ambiental;Queimadas;Municipal;Barra do Turvo;QUEIMADAS_ANUAIS_BRASIL_2023;Dado Bruto;MAPBIOMAS, 2023
+Dados;Ambiental;Hidrografia;Municipal;Adrianópolis;Hidro_pr_recort_adrian;Shapefile;IPARDES, 2020
+Dados;Ambiental;Hidrografia;Municipal;Bocaiuva do Sul;Hidro_pr_recort_boc_sul;Shapefile;IPARDES, 2020
+Dados;Ambiental;Bacias Hidrográficas;Municipal;Adrianópolis;Bacia_do_ribeira;Shapefile;SUDERSHA, 2007
+Dados;Ambiental;Bacias Hidrográficas;Municipal;Bocaiuva do Sul;Bacia_do_ribeira;Shapefile;SUDERSHA, 2007
+Dados;Ambiental;Unidades Aquíferas;Municipal;Adrianópolis;Unidades_aquiferas_adrian;Shapefile;SUDERSHA, sem data
+Dados;Ambiental;Unidades Aquíferas;Municipal;Bocaiuva do Sul;Unidades_aquiferas_boc_sul;Shapefile;SUDERSHA, sem data
+Dados;Ambiental;Nascentes;Municipal;Adrianópolis;Nascentes_adrian;Shapefile;FBDS, 2013
+Dados;Ambiental;Nascentes;Municipal;Bocaiuva do Sul;Nascentes_boc_sul;Shapefile;FBDS, 2013
+Dados;Ambiental;Clima;Municipal;Adrianópolis;koppen_adrian;Dado Bruto;ALVARES et al. 2013
+Dados;Ambiental;Clima;Municipal;Bocaiuva do Sul;koppen_bocaiuv;Dado Bruto;ALVARES et al. 2013
+Dados;Ambiental;Clima;Municipal;Barra do Turvo;koppen_barra_turv;Dado Bruto;ALVARES et al. 2013
+Dados;Serviços Públicos;Educaçao;Municipal;Adrianópolis;Panorama Educacional 2024;Dado Bruto;Todos pela Educação
+Dados;Serviços Públicos;Educaçao;Municipal;Bocaiuva do Sul;Panorama Educacional 2024;Dado Bruto;Todos pela Educação
+Dados;Serviços Públicos;Educaçao;Municipal;Barra do Turvo;Panorama Educacional 2024;Dado Bruto;Todos pela Educação
+Dados;Serviços Públicos;Saúde;Municipal;Adrianópolis;Plano Municipal de Saúde;Dado Bruto;Prefeitura Municipal de Adrianópolis
+Dados;Serviços Públicos;Saúde;Municipal;Bocaiuva do Sul;Plano Municipal de Saúde;Dado Bruto;Prefeitura Municipal de Bocaiúva do Sul
+Dados;Serviços Públicos;Esgoto;Municipal;Adrianópolis;Plano municipal de Saneamento Básico;Dado Bruto;Prefeitura Municipal de Adrianópolis
+Dados;Serviços Públicos;Esgoto;Municipal;Bocaiuva do Sul;Plano Municipal de Saneamento Básico;Dado Bruto;Prefeitura Municipal de Bocaiúva do Sul
+Dados;Serviços Públicos;Esgoto;Municipal;Barra do Turvo;Primeira Revisão do PM de Saneamento Básico;Dado Bruto;Prefeitura Municipal de Barra do Turvo
+Dados;GT Clovis Moura;GT Clovis Moura;Estadual;Paraná;Relatório 2005-2010;Dado Bruto;GRUPO DE TRABALHO  Clovis Moura
+Hipóteses;Conflitos;MIneraçao;Municipal;Adrianópolis;Mineração;Mapa;ANM
+Hipóteses;Conflitos;MIneraçao;Municipal;Adrianópolis;Mineração;Documento;ANM
+Hipóteses;Conflitos;MIneraçao;Municipal;Adrianópolis;Mineração;Documento;Repositório UFPR
+Hipóteses;Práticas;Contexto Socioambiental;Regional;Vale do Ribeira;Corredor Socioambiental;Mapa;Instituto Socioambiental, 2016
