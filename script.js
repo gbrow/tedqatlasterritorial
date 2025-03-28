@@ -414,7 +414,7 @@ function atualizarTabelaAgrupada() {
         row.TEMA === tema && row.Recorte === municipio
       ).length;
       const intensidade = maxVal > 0 ? Math.round((count / maxVal) * 100) : 0;
-      html += `<td style="background-color: rgba(78, 121, 167, ${(intensidade+0.4)/50})"></td>`;
+      html += `<td style="background-color: rgb(197, 59, 0, ${(intensidade+0.4)/50})"></td>`;
       //html += `<td style="background-color: rgba(78, 121, 167, ${(intensidade+0.4)/50})">${count || ''}</td>`;
     });
     html += '</tr>';
