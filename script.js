@@ -37,8 +37,9 @@ function carregarCSV() {
   document.body.appendChild(loader);
 
   // Caminho relativo para o arquivo CSV
-  const csvPath = window.location.pathname.includes('/dados/') 
-    ? 'ATLAS-QUANTIFICACAO.csv' 
+  const repoName = window.location.pathname.split('/')[1] || '';
+  const csvPath = repoName 
+    ? `/${repoName}/dados/ATLAS-QUANTIFICACAO.csv`
     : '/dados/ATLAS-QUANTIFICACAO.csv';
   
   console.log('Tentando carregar de:', csvPath); // Verifique no console
