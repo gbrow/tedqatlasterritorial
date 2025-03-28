@@ -11,43 +11,81 @@ window.subtemasChart = null;
 
 // Inicialização
 document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('btnCarregar').addEventListener('click', carregarCSV);
+  //document.getElementById('btnCarregar').addEventListener('click', carregarCSV);
   console.log('DOM carregado, elementos encontrados:', {
     tableContainer: document.getElementById('tableContainer'),
     dadosTable: document.getElementById('dadosTable')
   });
+  carregarCSV();
 });
 // Variável para armazenar alturas personalizadas
 const customHeights = {};
 // Carrega e processa o CSV
 function carregarCSV() {
-  const fileInput = document.getElementById('csvFile');
-  if (!fileInput || !fileInput.files[0]) {
-    alert('Selecione um arquivo CSV válido!');
-    return;
-  }
+ const loader = document.createElement('div');
+  loader.style.position = 'fixed';
+  loader.style.top = '0';
+  loader.style.left = '0';
+  loader.style.width = '100%';
+  loader.style.height = '100%';
+  loader.style.backgroundColor = 'rgba(0,0,0,0.5)';
+  loader.style.display = 'flex';
+  loader.style.justifyContent = 'center';
+  loader.style.alignItems = 'center';
+  loader.style.zIndex = '1000';
+  loader.innerHTML = '<div style="color:white;font-size:24px;">Carregando dados...</div>';
+  document.body.appendChild(loader);
 
-  console.log(fileInput.files[0]);
+  // Caminho relativo para o arquivo CSV
+  const csvPath = window.location.pathname.includes('/dados/') 
+    ? 'ATLAS-QUANTIFICACAO.csv' 
+    : '/dados/ATLAS-QUANTIFICACAO.csv';
+  
+  console.log('Tentando carregar de:', csvPath); // Verifique no console
 
-  Papa.parse(fileInput.files[0], {  
-    header: true,
-    delimiter: ';',
-    complete: function(results) {
-      if (!results.data || results.data.length === 0) {
-        alert('O arquivo CSV está vazio ou mal formatado!');
-        return;
+  // Usando fetch para carregar o arquivo
+  fetch(csvPath)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Erro HTTP! status: ${response.status}`);
       }
-      console.log(results.data);
-      dadosOriginais = results.data.filter(row => Object.keys(row).length > 0);
-      inicializarFiltros(dadosOriginais);
-      aplicarFiltros();
-      initAll();
-    },
-    error: function(error) {
-      console.error('Erro ao ler CSV:', error);
-      alert(`Erro ao processar o arquivo: ${error.message}`);
-    }
-  });
+      return response.text();
+    })
+    .then(csvText => {
+
+      Papa.parse(csvText, {  
+        header: true,
+        delimiter: ';',
+        complete: function(results) {
+          if (!results.data || results.data.length === 0) {
+            alert('O arquivo CSV está vazio ou mal formatado!');
+            return;
+          }
+          try{
+            console.log(results.data);
+            dadosOriginais = results.data.filter(row => Object.keys(row).length > 0);
+            inicializarFiltros(dadosOriginais);
+            aplicarFiltros();
+            initAll();
+          } catch (e) {
+            console.error('Erro no processamento:', e);
+            alert('Erro ao processar dados. Verifique o console.');
+          } finally {
+            document.body.removeChild(loader);
+          }
+
+        },
+        error: function(error) {
+          console.error('Erro ao ler CSV:', error);
+          alert(`Erro ao processar o arquivo: ${error.message}`);
+        }
+      });
+})
+    .catch(error => {
+      document.body.removeChild(loader);
+      console.error('Erro ao carregar arquivo:', error);
+      alert(`ERRO: ${error.message}\n\nVerifique:\n1. O arquivo existe em ${csvPath}\n2. O servidor permite acesso (CORS)\n3. O nome do arquivo está correto (maiúsculas/minúsculas)`);
+    });
 }
 
 // Inicializa filtros

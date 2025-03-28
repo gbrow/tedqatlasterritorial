@@ -10,76 +10,78 @@
   <div class="container">
     <h1>Visualização de Dados do ATLAS</h1>
     
-    <div class="upload-section">
+    <!--<div class="upload-section">
       <input type="file" id="csvFile" accept=".csv" />
       <button id="btnCarregar">Carregar CSV</button>
-    </div>
+    </div>-->
 
     <div class="filters">
       <label for="temaFilter">Tema:</label>
       <select id="temaFilter" disabled>
         <option value="">Todos</option>
       </select>
-
       <label for="municipioFilter">Município:</label>
       <select id="municipioFilter" disabled>
         <option value="">Todos</option>
       </select>
     </div>
 
-    <div class="chart-container temas">
+    <div class="chart-actions">
       <h2>Distribuição por Tema</h2>
+      <!--<button class="export-btn" onclick="exportChart('temasChart')">Exportar PNG</button>-->
+    </div>
+    <div class="chart-container temas">
       <div class="chart-wrapper">
-        <button class="export-btn" onclick="exportChart('temasChart')">Exportar PNG</button>
         <canvas id="temasChart"></canvas>
       </div>
       <div class="resize-handle"></div>
-      <div class="chart-actions">
-        
-        <button class="resize-btn" onclick="resetChartSize('temasChart')">Redefinir Tamanho</button>
-      </div>
+    </div>
+
+
+    <div class="chart-actions">
+      <h2>Subtemas por Tema (Barras Empilhadas)</h2>
     </div>
     <div class="chart-container subtemas">
-      <h2>Subtemas por Tema (Barras Empilhadas)</h2>
-      <button class="export-btn" onclick="exportChart('subtemasChart')">Exportar PNG</button>
+
+      <!--<button class="export-btn" onclick="exportChart('subtemasChart')">Exportar PNG</button>-->
       <div class="chart-wrapper">
         <canvas id="subtemasChart"></canvas>
       </div>
       <div class="resize-handle"></div>
-      <div class="chart-actions">
-        <button class="resize-btn" onclick="resetChartSize('subtemasChart')">Redefinir Tamanho</button>
-      </div>
+      
     </div>
 
-    <div class="chart-container municipios">
+    <div class="chart-actions">
       <h2>Dados por Município</h2>
-      <button class="export-btn" onclick="exportChart('municipiosChart')">Exportar PNG</button>
+    </div>
+    <div class="chart-container municipios">
+      <!--<button class="export-btn" onclick="exportChart('municipiosChart')">Exportar PNG</button>-->
       <div class="chart-wrapper">
         <canvas id="municipiosChart"></canvas>
       </div>
       <div class="resize-handle"></div>
-      <div class="chart-actions">
-        <button class="resize-btn" onclick="resetChartSize('municipiosChart')">Redefinir Tamanho</button>
-      </div>
+      
+    </div>
+    <div class="chart-actions">
+      <h2>Distribuição de Formatos (Área Polar)</h2>
     </div>
     <div class="chart-container formatos">
-      <h2>Distribuição de Formatos (Área Polar)</h2>
-      <button class="export-btn" onclick="exportChart('formatosChart')">Exportar PNG</button>
+      
+      <!--<button class="export-btn" onclick="exportChart('formatosChart')">Exportar PNG</button>-->
       <div class="chart-wrapper">
         <canvas id="formatosChart"></canvas>
       </div>
       <div class="resize-handle"></div>
-      <div class="chart-actions">
-        <button class="resize-btn" onclick="resetChartSize('formatosChart')">Redefinir Tamanho</button>
-      </div>
+      
     </div>
 
 
     <div class="chart-container">
       <div class="chart-header">
-        <h2>Relação Tema-Município</h2>
         <div class="chart-actions">
-          <button class="export-btn" onclick="exportTabelaAgrupada()">Exportar PNG</button>
+        <h2>Relação Tema-Município</h2>
+        
+          <!--<button class="export-btn" onclick="exportTabelaAgrupada()">Exportar PNG</button>-->
         </div>
       </div>
       <div id="tabelaAgrupada"></div>
