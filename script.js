@@ -572,7 +572,6 @@ function adicionarBotoesExport() {
       btnGroup.className = 'chart-actions';
       btnGroup.innerHTML = `
         <button class="export-btn" onclick="exportChart('${chartId}')">Exportar PNG</button>
-        <button class="export-btn" onclick="exportChartAsCSV('${chartId}')">Exportar Dados (CSV)</button>
       `;
       container.appendChild(btnGroup);
     }
